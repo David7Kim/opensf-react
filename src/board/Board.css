@@ -1,0 +1,258 @@
+.board_box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.board_header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  box-shadow: -1px 5px 8px 0 #ededed;
+}
+.board_header a {
+  text-decoration: none;
+}
+.board_m_txt {
+  position: relative;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #626262;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.board_m_txt a {
+  text-decoration: none;
+}
+
+.board_contents {
+  width: 100%;
+  margin: 50px 0 0px 0px;
+}
+.board_contents table {
+  width: 100%;
+}
+
+/* 버튼 */
+.btn_add_post {
+  color: #626262;
+  font-size: 15px;
+  margin: 14px 5px 10px auto;
+  line-height: 2;
+  text-decoration: none;
+}
+
+/* 게시물 CSS */
+
+.postList_box {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 20px auto;
+  border: 0.5px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 10px 0 rgb(240, 240, 240);
+  animation: 0.7s ease-in-out loadEffect;
+}
+.post_user_txt_box {
+  margin: 10px 10px 10px 10px;
+}
+.post_user_pic {
+  background-color: rgb(252, 250, 250);
+  background-image: url("../images/ic_default_profile_pic.jpg");
+  background-repeat: no-repeat;
+  box-shadow: 0px 5px 10px 0 rgb(207, 207, 207);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-position: 0px;
+  background-size: 60px;
+  margin: 5px;
+}
+
+.post_user_box {
+  display: flex;
+  width: 97%;
+  margin: 5px auto;
+}
+.post_user_name {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(54, 54, 54);
+}
+.post_date {
+  font-size: 12px;
+}
+.post_add_box {
+  position: fixed;
+  width: 100%;
+  /* animation: 0.7s ease-in-out slideIn; */
+}
+.post_title {
+  margin: auto;
+}
+.post_input_txt {
+  width: 80%;
+}
+.post_input_txt input {
+  width: 90%;
+  height: 30px;
+}
+.post_edit {
+  margin: 0px 0px 0px auto;
+}
+
+.post_contents,
+.post_show_comments {
+  width: 90%;
+  margin: 5px auto;
+  color: #626262;
+}
+.post_contents textarea {
+  border: none;
+  width: 92%;
+  height: 200px;
+}
+
+/* 글등록 팝업 */
+
+.post_add_box {
+  display: flex;
+  flex-direction: column;
+}
+.post_add_body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -1px 5px 5px 0px darkgrey;
+}
+.post_title_input {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.post_menu_bar {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  box-shadow: -1px 5px 8px 0 #ededed;
+  height: 50px;
+  width: 100%;
+}
+.post_menu_bar a {
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.post_add_ico_cancel {
+  color: gray;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.post_add_ico_cancel a {
+  text-decoration: none;
+}
+.board_m_prev_btn {
+  margin: 0px auto 0px 5px;
+}
+.board_m_prev_btn img {
+  width: 20px;
+  height: 20px;
+  margin: 15px 0 15px 0;
+}
+.post_add_confirm_btn {
+  color: #626262;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.post_menu_bar .menu_title {
+  color: #626262;
+  font-size: 20px;
+  margin: auto;
+}
+/* 제목 , 내용 */
+.post_add_body input {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.post_add_body textarea {
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  overflow: auto;
+}
+/*게시물 보기 css*/
+/* ==================== */
+.postview_header {
+  display: flex;
+
+  background-color: #48b1fb;
+  height: 50px;
+  width: 100%;
+}
+.postview_menu {
+  display: flex;
+  flex-direction: row;
+}
+/* ==================== */
+
+/*댓글 */
+
+.comments_box {
+  display: flex;
+  width: 90%;
+  margin: 5px auto;
+  /* animation: 0.7s ease-in-out loadEffect; */
+}
+.comments_push_btn_box {
+  margin: 0;
+}
+.comments_input_line {
+  margin: auto auto auto 0px;
+}
+
+@media screen and (max-width: 1000px) {
+}
+
+@media screen and (min-width: 800px) {
+  .postList_box {
+    width: 45%;
+  }
+}
+
+@keyframes loadEffect {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* @keyframes slideIn {
+  20% {
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(0%);
+  }
+  75% {
+    transform: translateY(52%);
+  }
+  95% {
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+  }
+} */

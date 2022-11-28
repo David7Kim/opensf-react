@@ -1,0 +1,97 @@
+.home_box {
+  width: 100%;
+}
+
+.home_body_box {
+  width: 90%;
+  margin: 0 auto;
+}
+.home_footer_box {
+  width: 90%;
+  text-align: center;
+  color: #6a6a6a;
+  background-color: rgb(243 243 243);
+  border-radius: 4px;
+  padding: 14px 10px 14px 10px;
+  margin: 0 auto;
+}
+.tbl_home_body {
+  margin: auto;
+}
+.tbl_home_body td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  animation: 0.7s ease-in-out loadEffect;
+}
+.tbl_home_body td a {
+  text-decoration: none;
+  color: #6a6a6a;
+}
+.tbl_home_body td img {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+.tbl_home_body td .txt {
+  color: gray;
+}
+.tbl_home_body td:hover {
+  background-color: #dddddd;
+}
+
+.profile_box {
+  display: flex;
+  color: white;
+  background-color: #48b1fb;
+  padding: 24px 23px 24px 23px;
+  font-weight: bold;
+  box-shadow: 0px 5px 9px 0px #c1e7fd;
+}
+.profile_pic {
+  width: 48px;
+  height: 48px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0.4px 0.4px 3px 0.4px #dddddd;
+  background-image: url(../images/ic_default_profile_pic.jpg);
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  top: 17px;
+}
+.profile_txt_box {
+  margin: 0 10px 0px 10px;
+}
+.profile_txt_box .profile_name {
+  font-size: 15px;
+}
+.profile_txt_box .profile_position {
+  font-size: 12px;
+}
+
+/* 
+@media screen and (min-width:1000px) {
+    .test{font-size: 50px;
+      color:red;
+    }
+  }
+@media screen and (max-width:800px){
+.test{
+    font-size:10px;
+    color:blue;
+}
+} */
+@media screen and( min-width:800px) {
+  .profile_box {
+    padding: 12px 23px 12px 23px;
+    height: 40px;
+  }
+}
+
+@keyframes loadEffect {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

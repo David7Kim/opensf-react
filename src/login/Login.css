@@ -1,0 +1,365 @@
+.login_box {
+  display: flex;
+  flex-direction: column;
+}
+.login_field {
+  background-color: white;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+}
+
+.submit_btn input {
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-family: bold;
+  background-color: rgb(0, 140, 255);
+  border: 1px solid rgb(16, 119, 255);
+  border-radius: 5px;
+}
+.submit_btn input:hover {
+  background-color: rgb(110, 188, 252);
+}
+
+.login_box {
+  position: absolute;
+  width: 500px;
+  margin: -250px -250px;
+  top: 50%;
+  left: 50%;
+  /* margin-left:auto ;
+    margin-right:auto; */
+}
+/* 로고 부분 텍스트 */
+.login_box h1 {
+  color: rgb(0, 140, 255);
+  text-align: center;
+  border-radius: 4px;
+}
+/* 아이디 찾기 */
+.find_account {
+  text-align: right;
+  float: right;
+}
+
+.find_account:hover {
+  text-align: right;
+  float: right;
+}
+
+/* 아이디 패스워드 입력창 부분  */
+.account_input input {
+  width: -webkit-fill-available;
+  height: 30px;
+}
+.password_input input {
+  width: -webkit-fill-available;
+  height: 30px;
+}
+
+/* 텍스트 */
+.account_txt,
+.password_txt,
+.find_account {
+  padding: 5px 0px 5px 0px;
+}
+.account_txt,
+.password_txt {
+  color: #23a2ed;
+}
+.link_signup a {
+  color: #23a2ed;
+  text-decoration: none;
+}
+.find_account a {
+  color: #23a2ed;
+  text-decoration: none;
+}
+.ment_signup {
+}
+.link_signup {
+}
+.find_account:hover {
+  font-weight: bold;
+}
+
+/* 회원가입  */
+.sign_up {
+  display: flex;
+  margin: 15px 0px 15px 0px;
+  background: #f3f3f3;
+  border-radius: 4px;
+  color: #525252;
+  border: 1px solid #d9d9d9;
+  height: 40px;
+  line-height: 2.5;
+}
+
+.signup_box {
+  display: flex;
+  background-color: rgb(255 255 255);
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  margin: 90px auto;
+}
+.signup_box_tw {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.signup_title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 5px 0 5px 0;
+  color: rgb(122 122 122);
+}
+.signup_input input {
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid rgb(196, 196, 196);
+  height: 30px;
+  margin: 15px 0 15px 0;
+}
+.signup_input form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup_btn input {
+  height: 40px;
+  background-color: rgb(0, 140, 255);
+  color: white;
+}
+.signup_btn input:hover {
+  background-color: rgb(110, 188, 252);
+}
+.already_account {
+  position: absolute;
+  background-color: gray;
+}
+/*계정만들기 프로필 사진*/
+.signup_profile_pic {
+  margin: 0 auto;
+}
+.signup_img {
+  /* margin: 0 auto; */
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+/* 계정 찾기 */
+.find_btn_box {
+  display: flex;
+}
+
+.find_account_box {
+  display: flex;
+  position: absolute;
+  background-color: rgb(255 255 255);
+  width: 300px;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  margin: -250px -150px;
+  top: 60%;
+  left: 50%;
+}
+.find_account_box_tw {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.find_account_title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 15px 0 15px 0;
+  color: rgb(122 122 122);
+}
+.find_account_input input {
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid rgb(196, 196, 196);
+  height: 30px;
+  margin: 15px 0 15px 0;
+}
+.find_account_input form {
+  display: flex;
+  flex-direction: column;
+}
+
+.find_account_btn input {
+  height: 40px;
+  background-color: rgb(0, 140, 255);
+  color: white;
+}
+.find_account_btn input:hover {
+  background-color: rgb(110, 188, 252);
+}
+
+.find_password_box {
+  display: flex;
+  position: absolute;
+  background-color: rgb(255 255 255);
+  width: 500px;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  margin: -250px -250px;
+  top: 60%;
+  left: 50%;
+}
+.find_password_box_tw {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.find_password_title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 15px 0 15px 0;
+  color: rgb(122 122 122);
+}
+.find_password_input input {
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid rgb(196, 196, 196);
+  height: 30px;
+  margin: 15px 0 15px 0;
+}
+.find_password_input form {
+  display: flex;
+  flex-direction: column;
+}
+
+.find_password_btn input {
+  height: 40px;
+  background-color: rgb(0, 140, 255);
+  color: white;
+}
+.find_password_btn input:hover {
+  background-color: rgb(110, 188, 252);
+}
+
+/*관리자 설정 페이지 CSS */
+.chk_all,
+.btn_admin {
+  margin: 0 5px 0 5px;
+}
+.user_pic {
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.set_admin_top {
+  display: flex;
+  align-items: center;
+  background-color: #48b1fb;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  height: 50px;
+  width: 100%;
+}
+.set_admin_title {
+  margin: auto;
+}
+.set_admin_state_box {
+  margin: 10px auto 10px 17px;
+  display: flex;
+  float: right;
+}
+.set_admin_header_box {
+  display: flex;
+  flex-direction: column;
+}
+.set_admin_user_box {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  border: 0.5px solid rgb(230, 230, 230);
+  margin: 3px auto;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px 0 rgb(240 240 240);
+  animation: 0.7s ease-in-out loadEffect;
+}
+.user_name {
+  justify-content: center;
+  align-items: center;
+}
+.chk_user_list_box {
+  margin: auto 6px;
+}
+.go_home {
+  margin: 0;
+}
+
+.set_admin_user_pic_box {
+  margin: 5px;
+}
+.user_name {
+  margin: auto 20px;
+}
+.user_is_admin_box {
+  margin: auto 15px auto auto;
+}
+/* 미디어 쿼리를 이용해서 반응형으로 짜주기 */
+
+/* @media screen and (min-width: 100px) {
+  .login_box {
+    position: absolute;
+    width: 50%;
+    top: 25%;
+    left: 25%;
+  }
+}
+*/
+@media screen and (min-width: 800px) {
+  .login_box {
+    position: absolute;
+    margin: -225px -225px;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+  }
+  .set_admin_user_box {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .login_box {
+    position: absolute;
+    margin: -150px -150px;
+    width: 300px;
+    top: 40%;
+    left: 50%;
+  }
+}
+@media screen and (max-width: 280px) {
+  .login_box {
+    position: absolute;
+    margin: -125px -125px;
+    width: 2500px;
+    top: 40%;
+    left: 50%;
+  }
+}
+/* @media screen and (min-width: 800px) {
+  .signup_box {
+    width: 22%;
+  }
+} */
+@media screen and (min-width: 200px) {
+  .signup_box {
+    width: 69%;
+  }
+}
+@keyframes loadEffect {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

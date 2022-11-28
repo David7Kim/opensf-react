@@ -1,0 +1,144 @@
+/*===========모달 부분==============*/
+.m_pop_box {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #c5c1c1;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px 0px grey;
+  animation: modal-show 0.3s;
+}
+.m_header {
+  color: #37cbed;
+  font-family: bold;
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+}
+.m_header .m_txt {
+  font-weight: bold;
+  margin: 2px 5px 2px 5px;
+}
+.m_close_btn {
+  display: none;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50px;
+  border: 0.5px solid gray;
+}
+.m_footer {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 3px 3px 3px 3px;
+}
+.m_contents {
+  margin: 5px 6px 5px 6px;
+}
+.confirm_btn {
+  width: 40px;
+  height: 20px;
+  margin: 0px 4px 0px 4px;
+  color: white;
+  font-family: bold;
+  font-size: 12px;
+  text-align: center;
+  background-color: rgb(7, 173, 250);
+  border: 1px solid #3baed1;
+  border-radius: 2px;
+}
+.confirm_btn:hover {
+  background-color: rgb(1, 117, 250);
+  border: 1px solid #3b77d1;
+}
+.cancel_btn:hover {
+  background-color: rgb(201, 201, 201);
+  border: 1px solid #c3baba;
+}
+.cancel_btn {
+  width: 40px;
+  height: 20px;
+  margin: 0px 4px 0px 4px;
+  font-size: 12px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #c3baba;
+  border-radius: 2px;
+}
+/* 달력 팝업 */
+
+/* 버튼 컴포넌트 */
+
+.btn_include {
+  color: white;
+  font-weight: 1000;
+  position: fixed;
+  float: right;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgb(10, 171, 235);
+  box-shadow: 0 1px 4px 2px rgb(216, 216, 216);
+}
+.btn_include a {
+  position: absolute;
+  top: 12px;
+  left: 8px;
+}
+
+/* 캘린더 컴포넌트  css  */
+.calendar_list_box {
+  display: flex;
+  flex-direction: row;
+  margin: 6px 6px 6px 6px;
+}
+.calendar_user_pic {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 50px;
+}
+.calendar_list_box .calendar_user_box {
+  display: flex;
+  flex-direction: column;
+  margin: 2px 10px 2px 10px;
+}
+
+.calendar_user_name {
+  font-weight: bold;
+}
+
+/* Search box(bar) */
+.search_bar {
+  margin: auto;
+  display: flex;
+  height: 50px;
+  background-color: white;
+  box-shadow: 3px 2px 1px 0 gray;
+}
+.search_bar input {
+  border: 1px solid gray;
+  border-radius: 4px;
+  height: 20px;
+}
+.search_btn_box {
+  display: flex;
+}
+.search_txt_clear {
+  font-weight: 500;
+  color: gray;
+}
+.search_btn {
+  font-weight: 500;
+  color: rgb(82, 82, 82);
+}
+.search_btn:hover {
+  color: gray;
+}
+.calendar_delete_btn {
+}
+.calendar_delete_btn:hover {
+  display: block;
+}
