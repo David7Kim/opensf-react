@@ -108,6 +108,14 @@ function MainHome() {
                       </div>
                     </td>
                   )}
+                  {userIsAdmin && (
+                    <td>
+                      <div onClick={admin}>
+                        <img src={require("../images/icn_board.png")}></img>
+                        <div className="home_li_txt">계정 생성</div>
+                      </div>
+                    </td>
+                  )}
                 </tr>
               </thead>
             </table>

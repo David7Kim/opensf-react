@@ -2,6 +2,10 @@
   "name": "opensales",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "8.19.2",
+    "node": "16.15.0"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
@@ -27,7 +31,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -50,5 +55,5 @@
   "devDependencies": {
     "redux-devtools-extension": "^2.13.9"
   },
-  "proxy": "https://opensf-mobile.herokuapp.com"
+  "proxy": "http://localhost:8070/"
 }

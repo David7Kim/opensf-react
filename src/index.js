@@ -15,7 +15,6 @@ import PostView from "./board/PostView";
 import ScrollPaging from "./board/ScrollPaging";
 import reportWebVitals from "./reportWebVitals";
 import Calendar from "./calendar/CalendarApp";
-import "react-app-polyfill/stable";
 
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
